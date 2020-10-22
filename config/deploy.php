@@ -97,8 +97,15 @@ return [
 
     'options' => [
         'application' => env('APP_NAME', 'Laravel'),
-        'repository' => 'git@github.com:SlovakNationalGallery/exlibris.pamatniknarodnihopisemnictvi.cz.git',
+        'repository' => 'https://github.com/SlovakNationalGallery/exlibris.pamatniknarodnihopisemnictvi.cz.git',
+        'http_user' => 'www-data',
+        'bin/php' => 'php7.4',
+        'bin/composer' => 'php7.4 $(which composer)',
         'php_fpm_service' => 'php7.4-fpm',
+        'shared_dirs' => [
+            'public/packages',
+            'storage'
+        ]
     ],
 
     /*
