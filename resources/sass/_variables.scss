@@ -17,3 +17,15 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+// Options
+$enable-rounded: false;
+$enable-responsive-font-sizes: true;
+
+// Typography
+$font-family-sans-serif:      'trivia_sans', sans-serif;
+$font-family-serif:           'garamond_itc', monospace;
+$font-family-base:            $font-family-sans-serif;
+
+$headings-font-family:        $font-family-serif;
+
