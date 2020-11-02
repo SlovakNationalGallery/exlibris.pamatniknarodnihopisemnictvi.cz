@@ -11,7 +11,7 @@
                 pro radost
             </h1>
             <p class="mt-5">&nbsp;</p>
-            <p class="mt-5">
+            <p class="mt-5 lead">
                 XVI. Trienále českého ex libris 2020<br>
                 Přehlídka současné tvorby ex libris 2018–2020<br>
                 Památník národního písemnictví
