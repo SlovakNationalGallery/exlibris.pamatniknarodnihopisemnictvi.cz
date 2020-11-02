@@ -13,3 +13,12 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
+
+// styleguide
+mix.js('resources/js/styleguide.js', 'public/js')
+    .sass('resources/sass/styleguide.scss', 'public/css');
+
+if (mix.inProduction()) {
+    mix.version()
+        .polyfill() // Support IE 11
+}
