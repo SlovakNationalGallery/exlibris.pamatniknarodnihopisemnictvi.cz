@@ -124,7 +124,7 @@ return [
         'exlibris.pamatniknarodnihopisemnictvi.cz' => [
             'deploy_path' => '/var/www/exlibris.pamatniknarodnihopisemnictvi.cz',
             'user' => 'lab_sng',
-            'branch' => 'master',
+            'branch' => 'feature/PNP-8-ui-setup',
         ],
     ],
 
