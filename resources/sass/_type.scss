@@ -1,0 +1,25 @@
+.font-serif {
+    font-family: $font-family-serif;
+}
+
+dl {
+    font-size: 1.1em;
+}
+
+dt {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+dd {
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+
+article p {
+    margin: 0;
+
+    &:not(:first-of-type) {
+        text-indent: 3em;
+    }
+}
