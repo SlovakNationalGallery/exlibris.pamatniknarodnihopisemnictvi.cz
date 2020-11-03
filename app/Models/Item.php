@@ -13,4 +13,9 @@ class Item extends Model
 
     protected $connection = 'webumenia';
     protected $indexConfigurator = \App\Elasticsearch\ItemsIndexConfigurator::class;
+
+    public function searchableAs()
+    {
+        return '_doc';
+    }
 }
