@@ -18,7 +18,14 @@ Route::get('/', function () {
 });
 
 Route::get('/sbirka', function () {
-    return \App\Models\Item::search('*')->where('related_work', 'XVI. Trienále českého ex libris 2020')->count();
+    $items = \App\Models\Item::search()
+//        ->where('related_work', 'XVI. Trienále českého ex libris 2020')
+        ->take(3)
+        ->get();
+
+    dump($items);
+
+//    return \App\Models\Item::search('*')->where('related_work', 'XVI. Trienále českého ex libris 2020')->count();
 });
 
 Route::get('styleguide', [StyleGuideController::class, 'index'])->name('styleguide');
