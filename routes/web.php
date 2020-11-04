@@ -17,6 +17,15 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/index', function () {
+    $items = \App\Models\Item::search('*')
+        ->where('related_work', 'XVI. Trienále českého ex libris 2020')
+        ->take(3)
+        ->get();
+
+    return view('index', compact('items'));
+})->name('index');
+
 Route::get('/sbirka', function () {
     return \App\Models\Item::search('*')->where('related_work', 'XVI. Trienále českého ex libris 2020')->count();
 });

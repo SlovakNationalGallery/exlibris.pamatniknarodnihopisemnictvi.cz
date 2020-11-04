@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-100">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -15,13 +15,13 @@
     <meta property="og:site_name" content="{{ __('app.title') }}" />
 
     @if(App::environment('production'))
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('app.gtag_id') }}"></script>
-        <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ config('app.gtag_id') }}'); </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('app.gtag_id') }}"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ config('app.gtag_id') }}'); </script>
     @endif
 
     <title>
         @hasSection('title')
-            @yield('title') | {{__('app.title')}}
+           @yield('title') | {{__('app.title')}}
         @else
             {{__('app.title')}}
         @endif
@@ -30,13 +30,12 @@
     {{-- @include('components.favicons') --}}
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     @stack('styles')
-</head>
+  </head>
 
-<body class="mb-6">
-    @include('components.header')
+  <body class="h-100">
     @yield('content')
 
     <script type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
     @stack('scripts')
-</body>
+  </body>
 </html>

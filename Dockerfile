@@ -8,7 +8,9 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
         git \
         nodejs
 
-RUN docker-php-ext-install zip
+RUN docker-php-ext-install \
+        pdo_mysql \
+        zip
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
