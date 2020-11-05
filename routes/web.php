@@ -20,21 +20,13 @@ Route::get('/', function () {
 Route::get('/index', function () {
     $items = \App\Models\Item::search('*')
         ->where('related_work', 'XVI. Trienále českého ex libris 2020')
-        ->take(3)
-        ->get();
+        ->get()->shuffle()->take(3);
 
     return view('index', compact('items'));
 })->name('index');
 
 Route::get('/sbirka', function () {
-    $items = \App\Models\Item::search()
-//        ->where('related_work', 'XVI. Trienále českého ex libris 2020')
-        ->take(3)
-        ->get();
-
-    dump($items);
-
-//    return \App\Models\Item::search('*')->where('related_work', 'XVI. Trienále českého ex libris 2020')->count();
+   return \App\Models\Item::search('*')->where('related_work', 'XVI. Trienále českého ex libris 2020')->get()->count();
 });
 
 Route::get('styleguide', [StyleGuideController::class, 'index'])->name('styleguide');

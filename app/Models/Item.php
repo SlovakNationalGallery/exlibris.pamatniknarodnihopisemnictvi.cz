@@ -11,6 +11,8 @@ class Item extends Model
     use HasFactory;
     use Searchable;
 
+    public $incrementing = false;
+
     protected $connection = 'webumenia';
 
     public function searchableAs()
