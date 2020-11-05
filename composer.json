@@ -9,11 +9,12 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
-        "babenkoivan/scout-elasticsearch-driver": "^4.2",
+        "babenkoivan/elastic-scout-driver": "^1.2",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
+        "laravel/scout": "^8.4",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
         "lorisleiva/laravel-deployer": "^0.3.5"

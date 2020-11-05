@@ -37,14 +37,11 @@
         </div>
 
         <div class="preview mt-5 mb-6">
-            <a class="m-1" href="#">
-                <img src="http://test.webumenia.sk/dielo/nahlad/CZE:PNP.1_2020_F-110/400" alt="">
-            </a>
-            <a class="m-1" href="#">
-                <img src="http://test.webumenia.sk/dielo/nahlad/CZE:PNP.1_2020_F-126/400" alt="">
-            </a>
-            <a class="m-1" href="#">
-                <img src="http://test.webumenia.sk/dielo/nahlad/CZE:PNP.1_2020_F-126/400" alt="">
+            @foreach ($items as $item)
+                <a class="m-1" href="#{{ Str::slug($item->author) }}">
+                    <img src="http://test.webumenia.sk/dielo/nahlad/{{$item->id}}/600" alt="{{ $item->author }}: {{ $item->name }}">
+                </a>
+            @endforeach
             </a>
         </div>
 
