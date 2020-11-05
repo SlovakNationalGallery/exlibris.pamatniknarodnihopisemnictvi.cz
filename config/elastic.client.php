@@ -2,6 +2,6 @@
 
 return [
     'hosts' => [
-        env('SCOUT_ELASTIC_HOST', 'localhost:9200'),
+        env('ELASTIC_HOST', 'localhost:9200'),
     ]
 ];
