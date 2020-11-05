@@ -1,0 +1,54 @@
+header {
+    nav {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            line-height: 1.2;
+            @include list-unstyled;
+        }
+
+        li {
+            width: 100%;
+            @include media-breakpoint-up(lg) {
+                width: auto;
+            }
+
+            &:nth-child(1) {
+                color: $yellow;
+            }
+
+            &:nth-child(2) {
+                color: $pink;
+            }
+
+            &:nth-child(3) {
+                color: $red;
+            }
+
+            &.active, &:hover {
+                background-color: currentColor;
+            }
+        }
+
+        a {
+            color: $black;
+            display: block;
+            font-family: $font-family-serif;
+            padding: 1rem;
+            @include font-size($h2-font-size);
+
+            &:hover {
+                color: $black;
+                text-decoration: none;
+            }
+
+            @include media-breakpoint-up(lg) {
+                padding: 1.25em .5em .5em 1.25em;
+            }
+        }
+    }
+
+    .lead {
+        line-height: 1.3;
+    }
+}

@@ -1,0 +1,19 @@
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+        // todo shrink element to content width
+        text-align: center;
+    }
+
+    @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        height: 20rem;
+
+        a, img {
+            height: 100%;
+        }
+    }
+}
