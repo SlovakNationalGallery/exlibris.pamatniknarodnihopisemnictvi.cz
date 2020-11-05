@@ -19,9 +19,4 @@ class Item extends Model
     {
         return 'webumenia_items_cs';
     }
-
-    public function getScoutKey()
-    {
-        return $this->attributes['id'];
-    }
 }
