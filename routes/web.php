@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StyleGuideController;
+use App\Models\Item;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,16 +19,25 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/index', function () {
-    $items = \App\Models\Item::search('*')
+Route::get('index', function () {
+    $items = Item::search()
         ->where('related_work', 'XVI. Trienále českého ex libris 2020')
-        ->get()->shuffle()->take(3);
+        ->get()
+        ->shuffle()
+        ->take(3);
 
     return view('index', compact('items'));
 })->name('index');
 
-Route::get('/sbirka', function () {
-   return \App\Models\Item::search('*')->where('related_work', 'XVI. Trienále českého ex libris 2020')->get()->count();
-});
+Route::get('pro-sbirku', function () {
+   return Item::search()
+       ->where('related_work', 'XVI. Trienále českého ex libris 2020')
+       ->get()
+       ->count();
+})->name('catalog');
+
+Route::get('pro-radost', function () {
+    return view('info');
+})->name('info');
 
 Route::get('styleguide', [StyleGuideController::class, 'index'])->name('styleguide');
