@@ -2,7 +2,6 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Laravel\Scout\Builder;
 use App\Models\Item;
 
 /*
@@ -35,15 +34,22 @@ Route::get('authors', function () {
 });
 
 Route::get('items', function (Request $request) {
+    $collapse = $request->get('collapse');
     $author = $request->get('author');
     $page = $request->get('page');
+    $size = $request->get('size', 1);
 
-    $items = Item::search()
-        ->where('related_work', 'XVI. Trienále českého ex libris 2020')
-        ->when($author !== null, function (Builder $builder) use ($author) {
-            return $builder->where('author', $author);
-        })
-        ->paginate(1, 'page', $page);
+    $builder = Item::boolSearch()
+        ->filter('term', ['related_work' => 'XVI. Trienále českého ex libris 2020']);
 
+    if ($collapse !== null) {
+        $builder->collapse($collapse);
+    }
+
+    if ($author !== null) {
+        $builder->filter('term', ['author' => $author]);
+    }
+
+    $items = $builder->paginate($size, 'page', $page);
     return response()->json($items);
 });
