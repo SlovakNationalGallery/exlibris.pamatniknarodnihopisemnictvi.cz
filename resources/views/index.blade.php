@@ -92,7 +92,36 @@
                 <hr>
 
                 <article class="mt-6 mb-5 font-serif">
-                    <p>...</p>
+                    <p>
+                        Trienále Ex libris pořádané v tomto roce provází několik „zvláštních“ okolností. Jednak
+                        se nekoná v místě svého vzniku a zároveň tradičního setkání sběratelů a přátel ex libris.
+                        A nemá ani klasickou výstavu spojenou s návštěvníky a také slavnostním předáváním cen,
+                        pochopitelně doprovázeným i osobními kontakty umělců, kteří se tvorbou v této disciplíně
+                        zabývají. Jako bychom se vrátili zpět do potemnělé intimity knihovny, v níž jsou ochraňovány
+                        starobylé svazky s vlepeným majetnickým štítkem ex libris. V podstatě do takové zapovězené
+                        tajemné knihovny z románu Umberta Eca Jméno růže. Ale právě tyto vnější a svým způsobem
+                        neovlivnitelné okolnosti přivedly tento pravidelný „trojčas“ k novému začátku.
+                    </p>
+                    <p>
+                        Zrodily se dvě varianty a dva přístupy – katalog a online výstava. Tradiční katalog a zároveň
+                        nově zvolená virtuální forma prezentace oceněných děl umožní přístup a zhlédnutí daleko širšímu
+                        okruhu zájemců o tuto grafickou disciplínu, která v současné době nemá sice takovou
+                        provázanost a vztah k samotnému objektu knihy, ale stále tvoří zajímavý segment drobné
+                        grafiky a má nejen své autory, ale především sběratele a aktivní příznivce. Za tím se skrývá
+                        i řada příběhů, jež jsou spojeny s osobními kontakty umělce a zájemce o jeho grafické dílo.
+                        Ostatně i to bylo impulzem k rozhodnutí o vytvoření nové podoby této přehlídky, která by
+                        ve svém budoucím pokračování měla mít širší zaměření na tento druh grafiky včetně dalších forem
+                        souvisejících s knižní tvorbou. Variantou může být i linie konfrontací zabývajících
+                        se osobnostmi, které jsou spojeny s ex libris a které do svých námětů včlenily zajímavé
+                        přístupy provázané s dobou. V této souvislosti lze uvést jména jako jsou J. Váchal,
+                        F. Kobliha, J. Konůpek, ale pochopitelně i umělce z následujících generací.
+                    </p>
+                    <p>
+                        Když se podíváme na letošní oceněné práce, nalezneme zástupce různých grafických forem
+                        od tradičnějších až po ty současné. Tato různorodost se pojí také se samotnými náměty děl, které
+                        mají blízko ke knihám v širším smyslu. Právě v této konotaci lze hledat i význam přehlídky
+                        a pohledu na EX libris.
+                    </p>
                     <p class="mt-4 text-right">Zdeněk Freisleben, ředitel PNP</p>
                 </article>
 
