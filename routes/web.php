@@ -183,6 +183,12 @@ Route::get('pro-radost', function () {
             'https://www.youtube.com/embed/O52jAYa4Pm8',
             'Taking Head – Psycho Killer'
         ),
+        $mediumFactory(
+            'Michal Čudrnák',
+            'web virtuální výstavy',
+            'https://www.youtube.com/embed/WezWspsKgpM',
+            'Floating Points – Anasickmodular'
+        ),
     ];
 
     return view('info', compact('media'));
