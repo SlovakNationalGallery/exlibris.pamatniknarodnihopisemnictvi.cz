@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Route;
 use App\Models\Item;
 
@@ -19,13 +21,15 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('authors', function () {
+Route::get('authors', function (Request $request) {
+    $size = $request->get('size', 50);
+
     $items = Item::boolSearch()
         ->filter('term', ['related_work' => 'XVI. Trienále českého ex libris 2020'])
         ->aggregate('author', [
             'terms' => [
                 'field' => 'author',
-                'size' => 50, // ¯\_(ツ)_/¯
+                'size' => $size,
             ]
         ])
         ->execute();
@@ -36,20 +40,38 @@ Route::get('authors', function () {
 Route::get('items', function (Request $request) {
     $collapse = $request->get('collapse');
     $author = $request->get('author');
-    $page = $request->get('page');
-    $size = $request->get('size', 1);
+    $perPage = $request->get('size', 1);
 
     $builder = Item::boolSearch()
         ->filter('term', ['related_work' => 'XVI. Trienále českého ex libris 2020']);
 
     if ($collapse !== null) {
-        $builder->collapse($collapse);
+        $builder
+            ->collapse($collapse)
+            ->aggregate('total', ['cardinality' => ['field' => $collapse]]);
     }
 
     if ($author !== null) {
         $builder->filter('term', ['author' => $author]);
     }
 
-    $items = $builder->paginate($size, 'page', $page);
+    $page = Paginator::resolveCurrentPage();
+
+    $builder->from(($page - 1) * $perPage);
+    $builder->size($perPage);
+
+    $searchResult = $builder->execute();
+
+    $total = $collapse === null ?
+        $searchResult->total() :
+        $searchResult->aggregations()['total']['value'];
+
+    $items = new LengthAwarePaginator(
+        $searchResult->matches()->all(),
+        $total,
+        $perPage,
+        $page
+    );
+
     return response()->json($items);
 });
