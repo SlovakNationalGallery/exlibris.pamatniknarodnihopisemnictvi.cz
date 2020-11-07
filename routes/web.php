@@ -1,5 +1,6 @@
 <?php
 
+use Elasticsearch\Client;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StyleGuideController;
 use App\Models\Item;
@@ -190,5 +191,9 @@ Route::get('pro-radost', function () {
 
     return view('info', compact('media'));
 })->name('info');
+
+Route::get('zoom/{author}/{page}', function ($author, $page) {
+    return view('zoom', compact('author', 'page'));
+})->where(['page' => '\d+'])->name('zoom');
 
 Route::get('styleguide', [StyleGuideController::class, 'index'])->name('styleguide');

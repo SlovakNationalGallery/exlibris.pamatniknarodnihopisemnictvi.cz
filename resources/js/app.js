@@ -7,6 +7,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+window.OpenSeadragon = require('openseadragon');
 
 /**
  * The following block of code may be used to automatically register your
@@ -21,6 +22,7 @@ window.Vue = require('vue');
 
 Vue.component('authors-component', require('./components/AuthorsComponent.vue').default);
 Vue.component('item-component', require('./components/ItemComponent.vue').default);
+Vue.component('zoom-component', require('./components/ZoomComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
