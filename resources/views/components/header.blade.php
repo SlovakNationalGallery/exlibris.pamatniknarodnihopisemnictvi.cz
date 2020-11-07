@@ -16,8 +16,8 @@
             <nav class="collapse navbar-collapse">
                 <ul>
                     <li class="{{ Route::is('index') ? 'active' : '' }}"><a href="{{ route('index') }}">Pro knihy</a></li>
-                    <li class=""><a href="#">pro sbírku</a></li>
-                    <li class=""><a href="#">pro radost</a></li>
+                    <li class="{{ Route::is('catalog') ? 'active' : '' }}"><a href="{{ route('catalog') }}">pro sbírku</a></li>
+                    <li class="{{ Route::is('info') ? 'active' : '' }}"><a href="{{ route('info') }}">pro radost</a></li>
                 </ul>
             </nav>
         </div>
