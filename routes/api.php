@@ -75,7 +75,8 @@ Route::get('items', function (Request $request) {
         $searchResult->matches()->all(),
         $total,
         $perPage,
-        $page
+        $page,
+        ['path' => Paginator::resolveCurrentPath()]
     );
 
     return response()->json($items);
