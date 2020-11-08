@@ -45,6 +45,8 @@
                     </div>
                 </div>
 
+                <authors-component></authors-component>
+
             </div>
         </div>
     </main>
@@ -61,7 +63,7 @@ $.get('/api/items?collapse=author&size=50', items => {
         });
 
         items.data.forEach(item => {
-            console.log(item, counts[item.model.author]);
+            // console.log(item, counts[item.model.author]);
         });
     });
 });
