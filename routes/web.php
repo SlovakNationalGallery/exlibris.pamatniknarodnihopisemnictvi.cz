@@ -30,10 +30,7 @@ Route::get('index', function () {
 })->name('index');
 
 Route::get('pro-sbirku', function () {
-   return Item::search()
-       ->where('related_work', 'XVI. Trienále českého ex libris 2020')
-       ->get()
-       ->count();
+   return view('catalog');
 })->name('catalog');
 
 Route::get('pro-radost', function () {
