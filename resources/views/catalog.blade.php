@@ -2,8 +2,8 @@
 
 @push('scripts')
     <script>
-$.get('/api/items?collapse=author&sort=additionals.order&size=50', function (items) {
-    $.get('/api/authors?size=' + items.total, function (authors) {
+$.get('/api/items?collapse=author&size=50', items => {
+    $.get('/api/authors?size=' + items.total, authors => {
         const counts = {};
 
         authors.forEach(author => {
