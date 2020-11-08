@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use ElasticScoutDriverPlus\CustomSearch;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Scout\Searchable;
@@ -10,6 +11,7 @@ class Item extends Model
 {
     use HasFactory;
     use Searchable;
+    use CustomSearch;
 
     public $incrementing = false;
 
