@@ -39,7 +39,7 @@
         <div class="preview mt-5 mb-6">
             @foreach ($items as $item)
                 <a class="m-1" href="#{{ Str::slug($item->author) }}">
-                    <img src="http://test.webumenia.sk/dielo/nahlad/{{$item->id}}/600" alt="{{ $item->author }}: {{ $item->name }}">
+                    <img src="{{ config('app.webumenia_url')}}/dielo/nahlad/{{$item->id}}/600" alt="{{ $item->author }}: {{ $item->name }}">
                 </a>
             @endforeach
             </a>
