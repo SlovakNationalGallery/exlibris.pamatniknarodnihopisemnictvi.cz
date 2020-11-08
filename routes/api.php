@@ -40,6 +40,7 @@ Route::get('authors', function (Request $request) {
 Route::get('items', function (Request $request) {
     $collapse = $request->get('collapse');
     $author = $request->get('author');
+    $sort = $request->get('sort');
     $perPage = $request->get('size', 1);
 
     $builder = Item::boolSearch()
@@ -53,6 +54,10 @@ Route::get('items', function (Request $request) {
 
     if ($author !== null) {
         $builder->filter('term', ['author' => $author]);
+    }
+
+    if ($sort !== null) {
+        $builder->sort($sort);
     }
 
     $page = Paginator::resolveCurrentPage();
