@@ -7,27 +7,27 @@
 
                 <div class="item">
                     <div class="row no-gutters align-items-end border-bottom py-4">
-                        <div class="col-md-4">
+                        <div class="col-8 col-md-4">
                             <a class="" href="#zoom">
                                 <img src="{{ config('app.webumenia_url')}}/dielo/nahlad/CZE:PNP.1_2020_F-112/600" alt="" class="img-fluid">
                             </a>
                         </div>
-                        <div class="col-md-4 offset-md-4">
+                        <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
                             <a href="#prev"><</a>
                             1/4
                             <a href="#next">></a>
                         </div>
                     </div>
                     <div class="row no-gutters align-items-start">
-                        <div class="col-md-8 border-right pr-3">
-                            <h2 class="font-serif mb-3">Barbora Bieylonovič</h2>
+                        <div class="col-md-8 border-right-md pr-3">
+                            <h2 class="font-serif mb-3 mt-1 mt-md-0">Barbora Bieylonovič</h2>
                             <p>
                                 Kolekce Barbory Bieylonovič nazvaná „Fáze ženy“ představuje v oblasti ex libris neo- třelý námět. Zaujala i způsobem provedení, kombinujícím techniku leptu s akvatintou nebo suchou jehlou.<br>
                                 Podařilo se jí vyjádřit mnohost a různou intenzitu pocitů vystihujících podstatu ženské bytosti. Tato soukromá autorská ex libris mají těsnou návaznost na autorčin volný cyk- lus maleb s názvem „Ticho“, které chápe symbolicky až mysticky, jako dimenzi univerza a subjektivní stav, v němž se odehrávají mnohé emotivní a intuitivní procesy. Zobrazení tváře je jejich vnější vizualizací.<br>
                                 Vilma HUbáčková
                             </p>
                         </div>
-                        <div class="col-md-4 pl-3 pt-3">
+                        <div class="col-md-4 pl-md-3 pt-3">
                             <h4 class="text-primary mb-3">
                                 grand prix
                             </h4>
