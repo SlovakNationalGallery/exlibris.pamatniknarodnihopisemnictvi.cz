@@ -1,7 +1,7 @@
 <template>
     <div class="item mb-5">
         <div class="row no-gutters align-items-end border-bottom pb-4">
-            <div class="col-8 col-md-8 image-container">
+            <div class="col-12 col-md-8 image-container">
                 <a href="#zoom">
                     <img :src="getImage(item.document.content.id)" :alt="item.document.content.title">
                 </a>
