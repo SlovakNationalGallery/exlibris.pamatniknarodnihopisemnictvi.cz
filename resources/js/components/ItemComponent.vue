@@ -2,8 +2,8 @@
     <div class="item mb-5">
         <div class="row no-gutters align-items-end border-bottom py-4">
             <div class="col-8 col-md-4">
-                <a class="" href="#zoom">
-                    <img :src="getImage(item.document.content.id)" alt="" class="img-fluid">
+                <a href="#zoom">
+                    <img :src="getImage(item.document.content.id)" :alt="item.document.content.title" class="img-fluid">
                 </a>
             </div>
             <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
@@ -46,7 +46,7 @@
             return {
                 page: 1,
                 item: this.firstItem,
-                endpoint: 'api/items?size=1&page=',
+                endpoint: '/api/items?size=1&page=',
             };
         },
 
