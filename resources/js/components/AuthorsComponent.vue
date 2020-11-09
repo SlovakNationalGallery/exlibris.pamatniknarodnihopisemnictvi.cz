@@ -10,8 +10,8 @@
             return {
                 counts: {},
                 items: [],
-                endpoint_items: 'api/items?collapse=author&size=50',
-                endpoint_authors: 'api/authors?size=50'
+                endpoint_items: '/api/items?collapse=author&size=50',
+                endpoint_authors: '/api/authors?size=50'
             };
         },
 
