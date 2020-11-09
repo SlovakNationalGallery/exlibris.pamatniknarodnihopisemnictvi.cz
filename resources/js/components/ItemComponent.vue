@@ -1,5 +1,5 @@
 <template>
-    <div class="item my-5">
+    <div class="item mb-5">
         <div class="row no-gutters align-items-end border-bottom py-4">
             <div class="col-8 col-md-4">
                 <a class="" href="#zoom">
@@ -7,9 +7,9 @@
                 </a>
             </div>
             <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
-                <a href="#prev" v-on:click="getPrev()">&lt;</a>
+                <a href="#prev" v-on:click="getPrev()" class="p-1">&lt;</a>
                 {{ page }}/{{ count }}
-                <a href="#next" v-on:click="getNext()">&gt;</a>
+                <a href="#next" v-on:click="getNext()" class="p-1">&gt;</a>
             </div>
         </div>
         <div class="row no-gutters">
@@ -75,3 +75,15 @@
         }
     }
 </script>
+
+<style lang="scss">
+    .item {
+        a {
+            color: $black;
+            &:hover {
+                text-decoration: none;
+                color: $primary;
+            }
+        }
+    }
+</style>
