@@ -1,12 +1,12 @@
 <template>
     <div class="item mb-5">
-        <div class="row no-gutters align-items-end border-bottom py-4">
-            <div class="col-8 col-md-4">
+        <div class="row no-gutters align-items-end border-bottom pb-4">
+            <div class="col-8 col-md-8 image-container">
                 <a href="#zoom">
-                    <img :src="getImage(item.document.content.id)" :alt="item.document.content.title" class="img-fluid">
+                    <img :src="getImage(item.document.content.id)" :alt="item.document.content.title">
                 </a>
             </div>
-            <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
+            <div class="col-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
                 <a href="#prev" v-on:click="getPrev()" class="p-1">&lt;</a>
                 {{ page }}/{{ count }}
                 <a href="#next" v-on:click="getNext()" class="p-1">&gt;</a>
@@ -54,7 +54,7 @@
 
         methods: {
             getImage(id) {
-                return process.env.MIX_WEBUMENIA_URL + '/dielo/nahlad/' + id + '/600';
+                return process.env.MIX_WEBUMENIA_URL + '/dielo/nahlad/' + id + '/800';
             },
             getPrev() {
                 this.page = (this.page-1) % this.count || this.count;
@@ -75,15 +75,3 @@
         }
     }
 </script>
-
-<style lang="scss">
-    .item {
-        a {
-            color: $black;
-            &:hover {
-                text-decoration: none;
-                color: $primary;
-            }
-        }
-    }
-</style>
