@@ -1,0 +1,22 @@
+.item {
+    a {
+        color: $black;
+        &:hover {
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+    .image-container {
+        height: 20rem;
+        @include media-breakpoint-up(md) {
+            height: 30rem;
+        }
+        img {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+            object-position: 50% 100%;
+        }
+    }
+}

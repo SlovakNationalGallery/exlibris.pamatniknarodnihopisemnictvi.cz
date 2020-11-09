@@ -1,3 +1,5 @@
 @include media-breakpoint-up(md) {
   .border-right-md { border-right: $border-width solid $border-color !important; }
+  .border-bottom-md-0 { border-bottom: none !important; }
 }
+
