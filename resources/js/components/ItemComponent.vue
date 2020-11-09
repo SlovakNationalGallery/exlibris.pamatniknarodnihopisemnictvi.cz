@@ -15,7 +15,7 @@
         <div class="row no-gutters border-bottom border-bottom-md-0">
             <div class="col-md-8 border-right-md pr-3">
                 <h2 class="font-serif mb-3 mt-1 mt-md-0">{{ item.document.content.author.join(', ') }}</h2>
-                <p v-html="item.document.content.description"></p>
+                <p v-html="getDescription(item)"></p>
             </div>
             <div class="col-md-4 pl-md-3 pt-3">
                 <h4 class="text-primary mb-3" v-if="item.document.content.additionals.award">
@@ -71,6 +71,10 @@
             },
             getAuthorAnchor(item) {
                 return item.document.content.author.join(', ').replaceAll(' ', '+');
+            },
+            getDescription(item) {
+                var replacement = '.<br><br>';
+                return item.document.content.description.replace(/\.([^\.]*)$/, replacement + '$1');
             }
         }
     }
