@@ -7,10 +7,9 @@
                 </a>
             </div>
             <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
-                <a href="#prev"><</a>
-                1/
-                {{ count }}
-                <a href="#next">></a>
+                <a href="#prev" v-on:click="getPrev()"><</a>
+                {{ page }}/{{ count }}
+                <a href="#next" v-on:click="getNext()">></a>
             </div>
         </div>
         <div class="row no-gutters">
@@ -44,14 +43,34 @@
 <script>
     export default {
         data() {
-            return {};
+            return {
+                page: 1,
+                item: this.firstItem,
+                endpoint: 'api/items?size=1&page=',
+            };
         },
 
-        props: ['item', 'count'],
+        props: ['firstItem', 'count'],
 
         methods: {
             getImage(id) {
                 return 'https://www.webumenia.local/dielo/nahlad/'+ id + '/600';
+            },
+            getPrev() {
+                this.page = (this.page-1) % this.count || this.count;
+                this.fetchItem(this.page);
+            },
+            getNext() {
+                this.page = (this.page+1) % this.count || this.count;
+                this.fetchItem(this.page);
+            },
+            fetchItem(page) {
+                const endpoint = this.endpoint + page + '&author=' + this.item.document.content.author.toString();
+
+                axios.get(endpoint)
+                    .then(({data}) => {
+                        this.item = data.data[0];
+                    });
             }
         }
     }

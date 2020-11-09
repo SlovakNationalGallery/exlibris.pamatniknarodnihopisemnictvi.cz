@@ -1,6 +1,6 @@
 <template>
     <div>
-        <item-component v-for="item in items" :item="item" :count="counts[item.model.author]" :key="item.model.author"></item-component>
+        <item-component v-for="item in items" :firstItem="item" :count="counts[item.model.author]" :key="item.model.author"></item-component>
     </div>
 </template>
 
@@ -11,7 +11,7 @@
                 counts: {},
                 items: [],
                 endpoint_items: 'api/items?collapse=author&size=50',
-                endpoint_authors: '/api/authors?size=50'
+                endpoint_authors: 'api/authors?size=50'
             };
         },
 
@@ -29,9 +29,6 @@
                             self.counts[author.key] = author.doc_count;
                         });
                     }));
-            },
-            getImage(id) {
-                return 'https://www.webumenia.local/dielo/nahlad/'+ id + '/600';
             }
         }
     }
