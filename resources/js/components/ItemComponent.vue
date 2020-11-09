@@ -14,7 +14,7 @@
         </div>
         <div class="row no-gutters">
             <div class="col-md-8 border-right-md pr-3">
-                <h2 class="font-serif mb-3 mt-1 mt-md-0">{{ item.document.content.author.toString() }}</h2>
+                <h2 class="font-serif mb-3 mt-1 mt-md-0">{{ item.document.content.author.join(', ') }}</h2>
                 <p>
                     {{ item.document.content.description }}
                 </p>
@@ -24,11 +24,10 @@
                     {{ item.document.content.additionals.award }}
                 </h4>
                 <p class="font-weight-bold">
-                    {{ item.document.content.author.toString() }}<br>
+                    {{ item.document.content.author.join(', ') }}<br>
                     {{ item.document.content.title }}<br>
-                    {{ item.document.content.technique.toString() }}<br>
-                    <!-- {{ item.document.content.measurement }}<br> -->
-                    <!-- @todo - measurement is empty now -->
+                    {{ item.document.content.technique.join(', ') }}<br>
+                    {{ item.document.content.measurement.join(', ') }}<br>
                     {{ item.document.content.date_earliest }}
                 </p>
                 <p class="font-weight-bold">
@@ -65,7 +64,7 @@
                 this.fetchItem(this.page);
             },
             fetchItem(page) {
-                const endpoint = this.endpoint + page + '&author=' + this.item.document.content.author.toString();
+                const endpoint = this.endpoint + page + '&author=' + this.item.document.content.author[0];
 
                 axios.get(endpoint)
                     .then(({data}) => {
