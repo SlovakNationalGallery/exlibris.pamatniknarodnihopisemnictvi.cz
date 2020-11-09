@@ -40,7 +40,7 @@ Route::get('authors', function (Request $request) {
 Route::get('items', function (Request $request) {
     $collapse = $request->get('collapse');
     $author = $request->get('author');
-    $sort = $request->get('sort');
+    $sort = $request->get('sort', 'additionals.order');
     $perPage = $request->get('size', 1);
 
     $builder = Item::boolSearch()
@@ -75,7 +75,8 @@ Route::get('items', function (Request $request) {
         $searchResult->matches()->all(),
         $total,
         $perPage,
-        $page
+        $page,
+        ['path' => Paginator::resolveCurrentPath()]
     );
 
     return response()->json($items);
