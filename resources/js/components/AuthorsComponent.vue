@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
                     <a href="#prev"><</a>
-                    1/{{ item.document.content.doc_count }}
+                    1/{{ counts[item.model.author] }}
                     <a href="#next">></a>
                 </div>
             </div>
@@ -45,8 +45,10 @@
     export default {
         data() {
             return {
+                counts: {},
                 items: [],
-                endpoint: 'api/items?collapse=author&size=50'
+                endpoint_items: 'api/items?collapse=author&size=50',
+                endpoint_authors: '/api/authors?size=50'
             };
         },
 
@@ -56,10 +58,14 @@
 
         methods: {
             fetch() {
-                axios.get(this.endpoint)
-                    .then(({data}) => {
-                        this.items = data.data;
-                    });
+                let self = this;
+                axios.all([axios.get(this.endpoint_items), axios.get(this.endpoint_authors)])
+                    .then(axios.spread(function (items, authors) {
+                        self.items = items.data.data;
+                        authors.data.forEach(author => {
+                            self.counts[author.key] = author.doc_count;
+                        });
+                    }));
             },
             getImage(id) {
                 return 'https://www.webumenia.local/dielo/nahlad/'+ id + '/600';
