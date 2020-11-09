@@ -1,38 +1,39 @@
 <template>
     <div>
-        <div class="item" v-for="author in authors">
+        <div class="item my-5" v-for="item in items">
             <div class="row no-gutters align-items-end border-bottom py-4">
                 <div class="col-8 col-md-4">
                     <a class="" href="#zoom">
-                        <img src="https://www.webumenia.local/dielo/nahlad/CZE:PNP.1_2020_F-112/600" alt="" class="img-fluid">
+                        <img :src="getImage(item.document.content.id)" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
                     <a href="#prev"><</a>
-                    1/{{ author.doc_count }}
+                    1/{{ item.document.content.doc_count }}
                     <a href="#next">></a>
                 </div>
             </div>
-            <div class="row no-gutters align-items-start">
+            <div class="row no-gutters">
                 <div class="col-md-8 border-right-md pr-3">
-                    <h2 class="font-serif mb-3 mt-1 mt-md-0">{{ author.key }}</h2>
+                    <h2 class="font-serif mb-3 mt-1 mt-md-0">{{ item.document.content.author.toString() }}</h2>
                     <p>
-                        ..
+                        {{ item.document.content.description }}
                     </p>
                 </div>
                 <div class="col-md-4 pl-md-3 pt-3">
                     <h4 class="text-primary mb-3">
-                        grand prix
+                        {{ item.document.content.additionals.award }}
                     </h4>
                     <p class="font-weight-bold">
-                        Barbora Bieylonovič<br>
-                        Ex libris BB<br>
-                        Fáze ženy III., ze série Ticho Lept, akvatinta – C3 + C5 118 x 80 mm<br>
-                        2020
-                        inv. číslo:<br>
+                        {{ item.document.content.author.toString() }}<br>
+                        {{ item.document.content.title }}<br>
+                        {{ item.document.content.technique.toString() }}<br>
+                        <!-- {{ item.document.content.measurement }}<br> -->
+                        <!-- @todo - measurement is empty now -->
+                        {{ item.document.content.date_earliest }}
                     </p>
                     <p class="font-weight-bold">
-                        inv. číslo: 1/2020/F - 112
+                        inv. číslo: {{ item.document.content.identifier }}
                     </p>
                 </div>
             </div>
@@ -44,8 +45,8 @@
     export default {
         data() {
             return {
-                authors: [],
-                endpoint: 'api/authors'
+                items: [],
+                endpoint: 'api/items?collapse=author&size=50'
             };
         },
 
@@ -57,8 +58,11 @@
             fetch() {
                 axios.get(this.endpoint)
                     .then(({data}) => {
-                        this.authors = data;
+                        this.items = data.data;
                     });
+            },
+            getImage(id) {
+                return 'https://www.webumenia.local/dielo/nahlad/'+ id + '/600';
             }
         }
     }
