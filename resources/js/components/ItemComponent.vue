@@ -12,7 +12,7 @@
                 <a href="#next" v-on:click="getNext()" class="p-1">&gt;</a>
             </div>
         </div>
-        <div class="row no-gutters">
+        <div class="row no-gutters border-bottom border-bottom-md-0">
             <div class="col-md-8 border-right-md pr-3">
                 <h2 class="font-serif mb-3 mt-1 mt-md-0">{{ item.document.content.author.toString() }}</h2>
                 <p>
