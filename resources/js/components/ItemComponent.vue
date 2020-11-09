@@ -20,7 +20,7 @@
                 </p>
             </div>
             <div class="col-md-4 pl-md-3 pt-3">
-                <h4 class="text-primary mb-3">
+                <h4 class="text-primary mb-3" v-if="item.document.content.additionals.award">
                     {{ item.document.content.additionals.award }}
                 </h4>
                 <p class="font-weight-bold">
