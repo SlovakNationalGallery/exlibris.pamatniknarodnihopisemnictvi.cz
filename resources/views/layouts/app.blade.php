@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="{{ !empty($fullHeight) ? 'h-100' : '' }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,9 +32,8 @@
     @stack('styles')
 </head>
 
-<body class="mb-6">
-    @include('components.header')
-    <div id="app">
+<body class="{{ !empty($fullHeight) ? 'h-100' : '' }}">
+    <div id="app" class="{{ !empty($fullHeight) ? 'h-100' : '' }}">
         @yield('content')
     </div>
 

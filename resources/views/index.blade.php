@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <main class="container-fluid">
+    @include('components.header')
+
+    <main class="container-fluid mb-6">
         <div class="row no-gutters">
             <div class="col-lg-6 offset-lg-3">
                 <hr>

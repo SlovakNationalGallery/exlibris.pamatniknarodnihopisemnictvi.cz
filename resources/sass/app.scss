@@ -1,16 +1,18 @@
 // Fonts
-@import "fonts";
+@import 'fonts';
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~font-awesome';
 
 @import 'borders';
 @import 'header';
 @import 'index';
 @import 'type';
+@import 'zoom';
 
 // Components
 @import 'components/item-component';

@@ -1,8 +1,8 @@
 <template>
-    <div class="item mb-5">
+    <div class="item mb-5" :id="getAuthorAnchor(item)">
         <div class="row no-gutters align-items-end border-bottom pb-4">
             <div class="col-12 col-md-8 image-container">
-                <a href="#zoom">
+                <a :href="`/zoom/${getAuthorAnchor(item)}/${page}`">
                     <img :src="getImage(item.document.content.id)" :alt="item.document.content.title">
                 </a>
             </div>
@@ -15,9 +15,7 @@
         <div class="row no-gutters border-bottom border-bottom-md-0">
             <div class="col-md-8 border-right-md pr-3">
                 <h2 class="font-serif mb-3 mt-1 mt-md-0">{{ item.document.content.author.join(', ') }}</h2>
-                <p>
-                    {{ item.document.content.description }}
-                </p>
+                <p v-html="item.document.content.description"></p>
             </div>
             <div class="col-md-4 pl-md-3 pt-3">
                 <h4 class="text-primary mb-3" v-if="item.document.content.additionals.award">
@@ -70,6 +68,9 @@
                     .then(({data}) => {
                         this.item = data.data[0];
                     });
+            },
+            getAuthorAnchor(item) {
+                return item.document.content.author.join(', ').replaceAll(' ', '+');
             }
         }
     }

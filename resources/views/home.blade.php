@@ -1,4 +1,4 @@
-@extends('layouts.home')
+@extends('layouts.app', ['fullHeight' => true])
 
 @section('content')
 <div class="container-fluid h-100 bg-info ">
