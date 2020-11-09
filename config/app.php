@@ -235,6 +235,6 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'webumenia_url' => env('WEBUMENIA_URL', 'https://www.webumenia.sk'),
+    'webumenia_url' => env('MIX_WEBUMENIA_URL', 'https://www.webumenia.sk'),
 
 ];
