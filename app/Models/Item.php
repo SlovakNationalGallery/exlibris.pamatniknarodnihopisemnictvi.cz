@@ -19,6 +19,6 @@ class Item extends Model
 
     public function searchableAs()
     {
-        return 'webumenia_items_cs';
+        return config('scout.prefix') . 'items_cs';
     }
 }

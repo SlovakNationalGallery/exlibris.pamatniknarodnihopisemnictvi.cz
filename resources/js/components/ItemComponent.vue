@@ -7,9 +7,9 @@
                 </a>
             </div>
             <div class="col-md-4 offset-md-4 pt-2 pl-md-3 font-weight-bold font-serif">
-                <a href="#prev" v-on:click="getPrev()"><</a>
+                <a href="#prev" v-on:click="getPrev()">&lt;</a>
                 {{ page }}/{{ count }}
-                <a href="#next" v-on:click="getNext()">></a>
+                <a href="#next" v-on:click="getNext()">&gt;</a>
             </div>
         </div>
         <div class="row no-gutters">
@@ -54,7 +54,7 @@
 
         methods: {
             getImage(id) {
-                return 'https://www.webumenia.local/dielo/nahlad/'+ id + '/600';
+                return process.env.MIX_WEBUMENIA_URL + '/dielo/nahlad/' + id + '/600';
             },
             getPrev() {
                 this.page = (this.page-1) % this.count || this.count;
