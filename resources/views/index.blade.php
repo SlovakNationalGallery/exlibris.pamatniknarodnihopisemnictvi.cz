@@ -40,8 +40,8 @@
 
         <div class="preview mt-5 mb-6">
             @foreach ($items as $item)
-                <a class="m-1" href="#{{ Str::slug($item->author) }}">
-                    <img src="{{ config('app.webumenia_url')}}/dielo/nahlad/{{$item->id}}/600" alt="{{ $item->author }}: {{ $item->name }}">
+                <a class="m-1" href="{{ route('catalog') }}">
+                    <img src="{{ config('app.webumenia_url') }}/dielo/nahlad/{{$item->id}}/600" alt="{{ $item->author }}" class="img-fluid">
                 </a>
             @endforeach
             </a>
@@ -53,9 +53,9 @@
 
                 <h2 class="mt-1">ocenění</h2>
 
-                <div class="row">
+                <div class="row" class="mt-5 mb-6">
                     <div class="col-md-6">
-                        <dl class="mt-5 mb-6">
+                        <dl>
                             <dt class="mt-5">Grand Prix</dt>
                             <dd>Barbora Bieylonovič</dd>
 
@@ -73,7 +73,7 @@
                         </dl>
                     </div>
                     <div class="col-md-6">
-                        <dl class="mt-5 mb-6">
+                        <dl>
                             <dt class="mt-5">Cena SČUG Hollar</dt>
                             <dd>Petr Alois Hampl</dd>
 

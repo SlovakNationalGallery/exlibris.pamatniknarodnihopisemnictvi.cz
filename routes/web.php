@@ -182,7 +182,7 @@ Route::get('pro-radost', function () {
             'Taking Head – Psycho Killer'
         ),
         $mediumFactory(
-            'Michal Čudrnák',
+            'Michal Čudrnák, Rastislav Chynoranský, Igor Rjabinin',
             'web virtuální výstavy',
             'https://www.youtube.com/embed/WezWspsKgpM',
             'Floating Points – Anasickmodular'
