@@ -28,6 +28,16 @@
                         authors.data.forEach(author => {
                             self.counts[author.key] = author.doc_count;
                         });
+
+                        self.$nextTick(() => {
+                            const id = location.hash.substring(1);
+                            const el = document.getElementById(id);
+                            if (el) {
+                                el.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }
+                        })
                     }));
             }
         }

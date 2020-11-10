@@ -1,5 +1,5 @@
 <template>
-    <div class="item mb-5" :id="getAuthorAnchor(item)">
+    <div class="item mb-5" :id="getAuthorSlug(item)">
         <div class="row no-gutters align-items-end border-bottom pb-4">
             <div class="col-12 col-md-8 image-container">
                 <a :href="`/zoom/${getAuthorAnchor(item)}/${page}`">
@@ -68,6 +68,11 @@
                     .then(({data}) => {
                         this.item = data.data[0];
                     });
+            },
+            getAuthorSlug(item) {
+                return slugify(item.document.content.author.join(', '), {
+                    lower: true
+                });
             },
             getAuthorAnchor(item) {
                 return item.document.content.author.join(', ').replaceAll(' ', '+');
