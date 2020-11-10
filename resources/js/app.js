@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+require('./components/back-to-top');
 
 window.Vue = require('vue');
 window.OpenSeadragon = require('openseadragon');
