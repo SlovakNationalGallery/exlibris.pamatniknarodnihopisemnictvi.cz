@@ -28,12 +28,6 @@
                         hodnotící kritéria patřil především důraz na umělec-kou kvalitu, vysokou úroveň výtvarného zpracování,
                         ale také šíři a rozmanitost použitých tra-dičních i moderních grafických technik.
                     </p>
-                    <p>
-                        Anglicky Ex libris neboli knižní značka se řadí k tradičnímu uměleckému oboru, který prošel zajímavým
-                        historickým vývojem, než se z něj stala samostatná sběratelská oblast, jak jej vnímáme v dnešní době.
-                        Současné ex libris spojované s knižní kulturou i žánrem volné grafiky se přetvořilo ve specifickou výtvarnou
-                        disciplínu, které se věnují význační umělci.
-                    </p>
                 </article>
             </div>
         </div>
@@ -95,7 +89,7 @@
 
                 <article class="mt-6 mb-5 font-serif">
                     <p>
-                        Trienále Ex libris pořádané v tomto roce provází několik „zvláštních“ okolností. Jednak
+                        Trienále ex libris pořádané v tomto roce provází několik „zvláštních“ okolností. Jednak
                         se nekoná v místě svého vzniku a zároveň tradičního setkání sběratelů a přátel ex libris.
                         A nemá ani klasickou výstavu spojenou s návštěvníky a také slavnostním předáváním cen,
                         pochopitelně doprovázeným i osobními kontakty umělců, kteří se tvorbou v této disciplíně
@@ -149,37 +143,31 @@
 
                 <article class="mt-6 font-serif">
                     <p>
-                        Ex libris neboli knižní značka se řadí k tradičnímu umělec-kému oboru, který prošel zajímavým historickým vývojem, než se z něj stala
-                        samostatná sběratelská oblast, jak jej vnímáme v dnešní době. Současné ex libris spojované s knižní kulturou
-                        i žánrem volné grafiky se přetvořilo ve specifickou výtvarnou disciplínu, které se věnují význační umělci.
+                        Dnešní stav současného umění vnímám jako takovou neuchopitelnou bezbřehost, že je pro mne
+                        nemožné určit si objektivní estetická kritéria pro jeho posuzování. Současná doba totiž mnoho
+                        objektivních kritérií nemá a vše je na subjektivních názorech lidí, kteří se v této
+                        oblasti pohybují.
                     </p>
                     <p>
-                        Celostátní přehlídka Trienále českého ex libris nabízí již po šestnácté možnost zhodnotit vývoj knižní
-                        značky, proměny uměleckých tendencí, ikonografické trendy a současné postupy v oblasti grafických technik
-                        za poslední tříleté období, tentokrát však netradičně i ve virtuálním prostředí.
+                        Proto je práce v jakékoliv umělecké komisi ještě obtížnější než dříve – v porotách se často
+                        sejdou lidé s názory naprosto rozdílnými, a nalézt nějaké společné stanovisko je proto obtížné.
+                        A často tím pádem rozhoduje stanovisko většiny, které ostatní musejí přijmout.
                     </p>
                     <p>
-                        Výstavní soubor zahrnuje celkem 126 drobných grafik od 46 autorů včetně studen-tů výtvarných škol.
-                        Šestičlenná porota složená z předních odborníků udělila v letošním roce ceny deseti výtvarníkům. Mezi hlavní
-                        hodnotící kritéria patřil především důraz na uměleckou kvalitu, vysokou úroveň výtvarného zpracování,
-                        ale také šíři a rozmanitost použitých tradičních i moderních grafických technik.
+                        To byl i případ naší komise – i když se nám podařilo se celkem jednotně shodnout, jsou
+                        mezi oceněnými autoři, o nichž rozhodl většinový názor jednoho hlasu.
                     </p>
                     <p>
-                        Anglicky Ex libris neboli knižní značka se řadí k tradičnímu uměleckému oboru, který prošel zajímavým
-                        historickým vývojem, než se z něj stala samostatná sběratelská oblast, jak jej vnímáme v dnešní době.
-                        Současné ex libris spojované s knižní kulturou i žánrem volné grafiky se přetvořilo ve specifickou výtvarnou
-                        disciplínu, které se věnují význační umělci.
+                        Rád bych pogratuloval všem oceněným, kteří obdrželi některou z cen, a pokud to bude
+                        povzbuzení pro jejich další práci, pak naše ocenění mají smysl. Všechny ostatní, kteří se
+                        zúčastnili a nezískali ocenění, bych rád povzbudil, aby se neocenění pro ně stalo motivací
+                        k ještě pilnější práci.
                     </p>
                     <p>
-                        Celostátní přehlídka Trienále českého ex libris nabízí již po šestnácté možnost zhodnotit vývoj knižní
-                        značky, proměny uměleckých tendencí, ikonografické trendy a současné postupy v oblasti grafických technik
-                        za poslední tříleté období, tentokrát však netradičně i ve virtuálním prostředí.
-                    </p>
-                    <p>
-                        Výstavní soubor zahrnuje celkem 126 drobných grafik od 46 autorů včetně studentů vý-tvarných škol.
-                        Šestičlenná porota složená z předních odborníků udělila v letošním roce ceny deseti výtvarníkům. Mezi hlavní
-                        hodnotící kritéria patřil především důraz na umě-leckou kvalitu, vysokou úroveň výtvarného zpracování,
-                        ale také šíři a rozmanitost použitých tradičních i moderních grafických technik.
+                        Ve světě tohoto subjektivního posuzování bych chtěl vyjádřit hlavně poděkování všem, kteří
+                        se rozhodli soutěže zúčastnit, a provolat slávu všem – těm neoceněným i oceněným –
+                        a popřát jim hodně energie do další tvorby. A aby jejich tvorba byla jejich vlastní
+                        vnitřní potřebou, na niž nějaká ocenění mají jenom nepatrný vliv.
                     </p>
                     <p class="mt-4 text-right">Pavel Piekar, předseda poroty</p>
                 </article>
