@@ -1,0 +1,9 @@
+.authors {
+    a.set-filter {
+        color: $black;
+        &.active {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+}
