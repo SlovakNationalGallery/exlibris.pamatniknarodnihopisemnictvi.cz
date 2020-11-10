@@ -145,6 +145,12 @@ Route::get('pro-radost', function () {
             'Leonard Cohen – Dance Me to the End of Love'
         ),
         $mediumFactory(
+            'Zdeněk Freisleben',
+            'ředitel PNP',
+            'https://www.youtube.com/embed/2AMMb9CiScI',
+            'Leonard Cohen – Happens to the Heart'
+        ),
+        $mediumFactory(
             'Helena Šantavá',
             'grafika',
             'https://www.youtube.com/embed/f1CNNf9iU9Y',
