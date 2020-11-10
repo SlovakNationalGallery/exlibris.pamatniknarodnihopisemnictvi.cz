@@ -36,7 +36,18 @@
 
                 <hr>
 
-                <article class="mt-4 mb-6 lead">
+                <h3 class="mt-2">Koncept</h3>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <p class="font-serif">
+                            Grafické řešení letošního trienále je podpořeno starou tiskovou technikou ve spolupráci
+                            s tiskařem Jaromírem Štouralem.
+                        </p>
+                    </div>
+                </div>
+
+                <article class="mt-3 mb-6 lead">
                     <p>
                         „Knihtisk jako archaická tisková technika dnes spadá do umělecké grafiky obdobně jako linoryt,
                         suchá jehla či lept – grafické techniky, které používají autoři ex libris.  Díky této ruční výrobě
