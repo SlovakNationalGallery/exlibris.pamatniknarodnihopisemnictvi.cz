@@ -43,6 +43,10 @@ header {
             }
 
             @include media-breakpoint-up(lg) {
+                padding: 1.25em .5em .5em;
+            }
+
+            @include media-breakpoint-up(xl) {
                 padding: 1.25em .5em .5em 1.25em;
             }
         }

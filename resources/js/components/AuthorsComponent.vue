@@ -1,6 +1,6 @@
 <template>
     <div>
-        <item-component v-for="item in items" :firstItem="item" :count="counts[item.model.author]" :key="item.model.author"></item-component>
+        <item-component v-for="item in items" :firstItem="item" :count="counts[item.document.content.author[0]]" :key="item.document.content.author[0]"></item-component>
     </div>
 </template>
 
