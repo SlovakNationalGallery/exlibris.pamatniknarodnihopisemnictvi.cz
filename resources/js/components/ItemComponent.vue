@@ -21,6 +21,9 @@
                 <h4 class="text-primary mb-3" v-if="item.document.content.additionals.award">
                     {{ item.document.content.additionals.award }}
                 </h4>
+                <p class="font-weight-bold" v-if="item.document.content.additionals.award_category">
+                    {{ item.document.content.additionals.award_category }}
+                </p>
                 <p class="font-weight-bold">
                     {{ item.document.content.author.join(', ') }}<br>
                     {{ item.document.content.title }}<br>
