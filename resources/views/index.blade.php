@@ -53,7 +53,7 @@
 
                 <h2 class="mt-1">ocenění</h2>
 
-                <div class="row" class="mt-5 mb-6">
+                <div class="row mt-5 mb-6">
                     <div class="col-md-6">
                         <dl>
                             <dt class="mt-5">Grand Prix</dt>
