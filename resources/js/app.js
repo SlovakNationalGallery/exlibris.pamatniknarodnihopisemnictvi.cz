@@ -8,6 +8,7 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 window.OpenSeadragon = require('openseadragon');
+window.slugify = require('slugify');
 
 /**
  * The following block of code may be used to automatically register your

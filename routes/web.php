@@ -23,6 +23,7 @@ Route::get('/', function () {
 Route::get('index', function () {
     $items = Item::search()
         ->where('related_work', 'XVI. Trienále českého ex libris 2020')
+        ->take(1000)
         ->get()
         ->shuffle()
         ->take(3);

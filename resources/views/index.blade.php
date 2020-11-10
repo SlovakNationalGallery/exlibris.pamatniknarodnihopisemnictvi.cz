@@ -40,7 +40,7 @@
 
         <div class="preview mt-5 mb-6">
             @foreach ($items as $item)
-                <a class="m-1" href="{{ route('catalog') }}">
+                <a class="m-1" href="{{ route('catalog') }}#{{ Str::slug($item->author) }}">
                     <img src="{{ config('app.webumenia_url') }}/dielo/nahlad/{{$item->id}}/600" alt="{{ $item->author }}" class="img-fluid mb-3">
                 </a>
             @endforeach
