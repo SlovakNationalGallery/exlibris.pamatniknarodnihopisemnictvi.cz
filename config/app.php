@@ -236,5 +236,6 @@ return [
     */
 
     'webumenia_url' => env('MIX_WEBUMENIA_URL', 'https://www.webumenia.sk'),
+    'gtag_id' => env('GTAG_ID', null),
 
 ];
