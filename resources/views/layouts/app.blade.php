@@ -11,7 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:author" content="http://lab.sng.sk/" />
     <meta property="og:url" content="{{ url()->current() }}" />
-    <meta property="og:image" content="@yield('og_image', asset('images/og-image.jpg'))" />
+    <meta property="og:image" content="@yield('og_image', asset('img/og_image.jpg'))" />
     <meta property="og:site_name" content="{{ __('app.title') }}" />
 
     @if(App::environment('production'))
@@ -27,7 +27,7 @@
         @endif
     </title>
 
-    {{-- @include('components.favicons') --}}
+    @include('components.favicons')
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     @stack('styles')
 </head>
