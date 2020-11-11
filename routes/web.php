@@ -68,13 +68,13 @@ Route::get('pro-radost', function () {
         ),
         $mediumFactory(
             'Jan Kavan',
-            'Cena knihovny Národního muzea',
+            'Cena Knihovny Národního muzea',
             'https://www.youtube.com/embed/We3Qv98zSIc',
             'Jiří Suchý a Semafor Girls – Jó, to jsem ještě žil'
         ),
         $mediumFactory(
             'Hana Storchová',
-            'Cena spolku sběratelů a přátel ex libris',
+            'Cena Spolku sběratelů a přátel ex libris',
             'https://www.youtube.com/embed/GRxofEmo3HA',
             'Antonio Vivaldi – Čtvero ročních období'
         ),
@@ -92,13 +92,13 @@ Route::get('pro-radost', function () {
         ),
         $mediumFactory(
             'Petr Klíma',
-            'Cena XVI. trienále českého ex libris 2020 (studentská kategorie)',
+            'Cena XVI. Trienále českého ex libris 2020 (studentská kategorie)',
             'https://www.youtube.com/embed/KnzJtm6h9SE',
             'John Frusciante – Murderers'
         ),
         $mediumFactory(
             'Martina Shořovská',
-            'Cena spolku sběratelů a přátel ex libris (studentská kategorie)',
+            'Cena Spolku sběratelů a přátel ex libris (studentská kategorie)',
             'https://www.youtube.com/embed/BA4rSO-h9Io',
             'Redbone – Come and Get Your Love'
         ),
