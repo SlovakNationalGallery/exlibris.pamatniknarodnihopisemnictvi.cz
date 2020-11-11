@@ -8,10 +8,12 @@
             <div class="col-lg-6 offset-lg-3">
                 <hr>
 
-                <h3 class="mt-2">
+                <h3 class="mt-2">Playlist</h3>
+
+                <p class="font-serif">
                     Poslechněte si, u jakých skladeb tvoří účastníci<br>
                     XVI. Trienále českého ex libris 2020
-                </h3>
+                </p>
 
                 <div class="mt-5 mb-6">
                     @foreach($media as $medium)
@@ -32,6 +34,8 @@
                             </div>
                         </div>
                     @endforeach
+
+                    <p>Kompletní playlist si můžete <a href="https://www.youtube.com/playlist?list=PLx_Nm9wbWQapGk6_AlrAFWz2QwqLBZihd" target="_blank">poslechnout zde</a>.</p>
                 </div>
 
                 <hr>
@@ -42,7 +46,7 @@
                     <div class="col-md-8">
                         <p class="font-serif">
                             Grafické řešení letošního trienále je podpořeno starou tiskovou technikou ve spolupráci
-                            s tiskařem Jaromírem Štouralem.
+                            s tiskařem Jaromírem Štouralem z knihtiskové dílny Vysoké školy uměleckoprůmyslové v Praze.
                         </p>
                     </div>
                 </div>
@@ -65,6 +69,12 @@
                 <img class="img-fluid my-3" src="{{ asset('img/pro_radost_2.jpg') }}">
                 <img class="img-fluid my-3" src="{{ asset('img/pro_radost_3.jpg') }}">
                 <img class="img-fluid my-3" src="{{ asset('img/pro_radost_4.jpg') }}">
+
+                <hr class="mt-6">
+
+                <h3 class="mt-2">Tvorba</h3>
+
+                <p class="font-serif">Jak ex libris vzniká, se zanedlouho dozvíte ve videu ve spolupráci s oceněnými umělci</p>
             </div>
         </div>
     </main>

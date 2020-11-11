@@ -63,7 +63,7 @@ Route::get('pro-radost', function () {
         $mediumFactory(
             'Jan Melena',
             'Cena XVI. Trienále českého ex libris 2020',
-            'https://www.youtube.com/embed/tRMZ',
+            'https://www.youtube.com/embed/tRMZ_5WYmCg',
             'David Bowie – Space Oddity'
         ),
         $mediumFactory(
@@ -135,7 +135,7 @@ Route::get('pro-radost', function () {
         $mediumFactory(
             'Barbora Vlášková',
             'tajemnice',
-            'https://www.youtube.com/embed/mE45pn',
+            'https://www.youtube.com/embed/mE45pn_AMW0',
             'Mirror – Nostalgia',
             '(feat. Dave Gahan)'
         ),
