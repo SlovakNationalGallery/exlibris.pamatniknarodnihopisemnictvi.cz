@@ -59,7 +59,7 @@
                             <dt class="mt-5">Cena XVI. Trienále českého ex libris 2020</dt>
                             <dd>Martin Raudenský<br>Jan Melena</dd>
 
-                            <dt class="mt-5">Cena knihovny národního múzea</dt>
+                            <dt class="mt-5">Cena knihovny národního muzea</dt>
                             <dd>Jan Kavan</dd>
 
                             <dt class="mt-5">Cena spolku sběratelů a přátel exlibris</dt>
