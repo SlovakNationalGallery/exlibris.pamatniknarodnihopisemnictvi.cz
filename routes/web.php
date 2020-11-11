@@ -130,7 +130,7 @@ Route::get('pro-radost', function () {
             'Martina Vyšohlídová',
             'porotkyně',
             'https://www.youtube.com/embed/nkcm5cT9gGI',
-            '2Cellosc – I will wait'
+            '2Cellos – I will wait'
         ),
         $mediumFactory(
             'Barbora Vlášková',

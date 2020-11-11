@@ -55,11 +55,11 @@
                     <p>
                         „Knihtisk jako archaická tisková technika dnes spadá do umělecké grafiky obdobně jako linoryt,
                         suchá jehla či lept – grafické techniky, které používají autoři ex libris.  Díky této ruční výrobě
-                        obálky katalogu, diplomů, pozvánek či desek s pamětními listy můžeme používat různé barvy grafických
-                        kartonů. Trienále ex libris obesílají převážně umělci, kteří se věnují grafické tvorbě, a studenti
+                        obálky katalogu, diplomů, pozvánek či desek s pamětními listy můžeme používat různé barvy grafických
+                        kartonů. Trienále ex libris obesílají převážně umělci, kteří se věnují grafické tvorbě, a studenti
                         výtvarných škol. Ačkoliv tvorba ex libris je disciplína mizející, trienále vytváří prostor, kde
-                        se může uplatnit i grafická tvorba menších rozměrů, a tak trvale podporuje vznik grafických děl.
-                        Soutěžní výběr pak ukazuje mnohost přístupů a různé druhy výtvarného projevu v současné grafické
+                        se může uplatnit i grafická tvorba menších rozměrů, a tak trvale podporuje vznik grafických děl.
+                        Soutěžní výběr pak ukazuje mnohost přístupů a různé druhy výtvarného projevu v současné grafické
                         tvorbě.“
                     </p>
                     <p class="mt-4 text-right">Helena Šantavá, grafička XVI. Trienále českého ex libris 2020</p>
@@ -74,7 +74,7 @@
 
                 <h3 class="mt-2">Tvorba</h3>
 
-                <p class="font-serif">Jak ex libris vzniká, se zanedlouho dozvíte ve videu ve spolupráci s oceněnými umělci</p>
+                <p class="font-serif">Jak ex libris vzniká, se zanedlouho dozvíte ve videu ve spolupráci s oceněnými umělci</p>
             </div>
         </div>
     </main>

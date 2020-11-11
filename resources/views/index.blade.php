@@ -12,21 +12,21 @@
 
                 <article class="font-serif">
                     <p>
-                        neboli knižní značka se řadí k tradičnímu uměleckému oboru, který prošel zajímavým his-torickým vývojem,
-                        než se z něj stala samostatná sběratelská oblast, jak jej vnímáme v dnešní době. Současné ex libris
-                        spojované s knižní kulturou i žánrem volné grafiky se přetvořilo ve specifickou výtvarnou disciplínu,
+                        neboli knižní značka se řadí k tradičnímu uměleckému oboru, který prošel zajímavým historickým vývojem,
+                        než se z něj stala samostatná sběratelská oblast, jak jej vnímáme v dnešní době. Současné ex libris
+                        spojované s knižní kulturou i žánrem volné grafiky se přetvořilo ve specifickou výtvarnou disciplínu,
                         které se věnují význační umělci.
                     </p>
                     <p>
-                        Celostátní přehlídka Trienále českého ex libris nabízí již po šestnácté možnost zhod-notit vývoj knižní
-                        značky, proměny uměleckých tendencí, ikonografické trendy a současné postupy v oblasti grafických technik
-                        za poslední tříleté období, tentokrát však netradičně i ve virtuálním prostředí.
+                        Celostátní přehlídka Trienále českého ex libris nabízí již po šestnácté možnost zhodnotit vývoj knižní
+                        značky, proměny uměleckých tendencí, ikonografické trendy a současné postupy v oblasti grafických technik
+                        za poslední tříleté období, tentokrát však netradičně i ve virtuálním prostředí.
                     </p>
                     <p>
                         Výstavní soubor zahrnuje celkem 126 drobných grafik od 46 autorů včetně studentů výtvarných škol.
-                        Šestičlenná porota složená z předních odborníků udělila v letošním roce ceny deseti výtvarníkům. Mezi hlavní
-                        hodnotící kritéria patřil především důraz na umělec-kou kvalitu, vysokou úroveň výtvarného zpracování,
-                        ale také šíři a rozmanitost použitých tra-dičních i moderních grafických technik.
+                        Šestičlenná porota složená z předních odborníků udělila v letošním roce ceny deseti výtvarníkům. Mezi hlavní
+                        hodnotící kritéria patřil především důraz na uměleckou kvalitu, vysokou úroveň výtvarného zpracování,
+                        ale také šíři a rozmanitost použitých tradičních i moderních grafických technik.
                     </p>
                 </article>
             </div>
@@ -87,36 +87,36 @@
 
                 <hr>
 
-                <article class="mt-6 mb-5 font-serif">
+                <article class="mt-2 mb-6 font-serif">
                     <p>
                         Trienále ex libris pořádané v tomto roce provází několik „zvláštních“ okolností. Jednak
-                        se nekoná v místě svého vzniku a zároveň tradičního setkání sběratelů a přátel ex libris.
-                        A nemá ani klasickou výstavu spojenou s návštěvníky a také slavnostním předáváním cen,
-                        pochopitelně doprovázeným i osobními kontakty umělců, kteří se tvorbou v této disciplíně
-                        zabývají. Jako bychom se vrátili zpět do potemnělé intimity knihovny, v níž jsou ochraňovány
+                        se nekoná v místě svého vzniku a zároveň tradičního setkání sběratelů a přátel ex libris.
+                        A nemá ani klasickou výstavu spojenou s návštěvníky a také slavnostním předáváním cen,
+                        pochopitelně doprovázeným i osobními kontakty umělců, kteří se tvorbou v této disciplíně
+                        zabývají. Jako bychom se vrátili zpět do potemnělé intimity knihovny, v níž jsou ochraňovány
                         starobylé svazky s vlepeným majetnickým štítkem ex libris. V podstatě do takové zapovězené
-                        tajemné knihovny z románu Umberta Eca Jméno růže. Ale právě tyto vnější a svým způsobem
+                        tajemné knihovny z románu Umberta Eca Jméno růže. Ale právě tyto vnější a svým způsobem
                         neovlivnitelné okolnosti přivedly tento pravidelný „trojčas“ k novému začátku.
                     </p>
                     <p>
-                        Zrodily se dvě varianty a dva přístupy – katalog a online výstava. Tradiční katalog a zároveň
-                        nově zvolená virtuální forma prezentace oceněných děl umožní přístup a zhlédnutí daleko širšímu
-                        okruhu zájemců o tuto grafickou disciplínu, která v současné době nemá sice takovou
-                        provázanost a vztah k samotnému objektu knihy, ale stále tvoří zajímavý segment drobné
-                        grafiky a má nejen své autory, ale především sběratele a aktivní příznivce. Za tím se skrývá
-                        i řada příběhů, jež jsou spojeny s osobními kontakty umělce a zájemce o jeho grafické dílo.
-                        Ostatně i to bylo impulzem k rozhodnutí o vytvoření nové podoby této přehlídky, která by
+                        Zrodily se dvě varianty a dva přístupy – katalog a online výstava. Tradiční katalog a zároveň
+                        nově zvolená virtuální forma prezentace oceněných děl umožní přístup a zhlédnutí daleko širšímu
+                        okruhu zájemců o tuto grafickou disciplínu, která v současné době nemá sice takovou
+                        provázanost a vztah k samotnému objektu knihy, ale stále tvoří zajímavý segment drobné
+                        grafiky a má nejen své autory, ale především sběratele a aktivní příznivce. Za tím se skrývá
+                        i řada příběhů, jež jsou spojeny s osobními kontakty umělce a zájemce o jeho grafické dílo.
+                        Ostatně i to bylo impulzem k rozhodnutí o vytvoření nové podoby této přehlídky, která by
                         ve svém budoucím pokračování měla mít širší zaměření na tento druh grafiky včetně dalších forem
-                        souvisejících s knižní tvorbou. Variantou může být i linie konfrontací zabývajících
-                        se osobnostmi, které jsou spojeny s ex libris a které do svých námětů včlenily zajímavé
+                        souvisejících s knižní tvorbou. Variantou může být i linie konfrontací zabývajících
+                        se osobnostmi, které jsou spojeny s ex libris a které do svých námětů včlenily zajímavé
                         přístupy provázané s dobou. V této souvislosti lze uvést jména jako jsou J. Váchal,
-                        F. Kobliha, J. Konůpek, ale pochopitelně i umělce z následujících generací.
+                        F. Kobliha, J. Konůpek, ale pochopitelně i umělce z následujících generací.
                     </p>
                     <p>
                         Když se podíváme na letošní oceněné práce, nalezneme zástupce různých grafických forem
                         od tradičnějších až po ty současné. Tato různorodost se pojí také se samotnými náměty děl, které
-                        mají blízko ke knihám v širším smyslu. Právě v této konotaci lze hledat i význam přehlídky
-                        a pohledu na EX libris.
+                        mají blízko ke knihám v širším smyslu. Právě v této konotaci lze hledat i význam přehlídky
+                        a pohledu na EX libris.
                     </p>
                     <p class="mt-4 text-right">Zdeněk Freisleben, ředitel PNP</p>
                 </article>
@@ -141,7 +141,7 @@
 
                 <hr>
 
-                <article class="mt-6 font-serif">
+                <article class="mt-2 font-serif">
                     <p>
                         Dnešní stav současného umění vnímám jako takovou neuchopitelnou bezbřehost, že je pro mne
                         nemožné určit si objektivní estetická kritéria pro jeho posuzování. Současná doba totiž mnoho
@@ -149,7 +149,7 @@
                         oblasti pohybují.
                     </p>
                     <p>
-                        Proto je práce v jakékoliv umělecké komisi ještě obtížnější než dříve – v porotách se často
+                        Proto je práce v jakékoliv umělecké komisi ještě obtížnější než dříve – v porotách se často
                         sejdou lidé s názory naprosto rozdílnými, a nalézt nějaké společné stanovisko je proto obtížné.
                         A často tím pádem rozhoduje stanovisko většiny, které ostatní musejí přijmout.
                     </p>
