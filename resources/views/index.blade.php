@@ -87,7 +87,7 @@
 
                 <hr>
 
-                <article class="mt-6 mb-5 font-serif">
+                <article class="mt-2 mb-6 font-serif">
                     <p>
                         Trienále ex libris pořádané v tomto roce provází několik „zvláštních“ okolností. Jednak
                         se nekoná v místě svého vzniku a zároveň tradičního setkání sběratelů a přátel ex libris.
@@ -141,7 +141,7 @@
 
                 <hr>
 
-                <article class="mt-6 font-serif">
+                <article class="mt-2 font-serif">
                     <p>
                         Dnešní stav současného umění vnímám jako takovou neuchopitelnou bezbřehost, že je pro mne
                         nemožné určit si objektivní estetická kritéria pro jeho posuzování. Současná doba totiž mnoho
