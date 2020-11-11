@@ -81,8 +81,12 @@
                 return item.document.content.author.join(', ').replaceAll(' ', '+');
             },
             getDescription(item) {
-                var replacement = '.<br><br>';
-                return item.document.content.description.replace(/\.([^\.]*)$/, replacement + '$1');
+                let replacement = '.<br><br>';
+                let str = item.document.content.description;
+                if (item.document.content.additionals.award_category=='Studentská kategorie') {
+                    str = str.replace('.', replacement);
+                }
+                return str.replace(/\.([^\.]*)$/, replacement + '$1');
             }
         }
     }
