@@ -74,7 +74,15 @@
 
                 <h3 class="mt-2">Tvorba</h3>
 
-                <p class="font-serif">Jak ex libris vzniká, se zanedlouho dozvíte ve videu ve spolupráci s oceněnými umělci</p>
+                <p class="font-serif">Jak vzniká ex libris?
+                Karantéňan vás společně s kurátorkou ex libris Barborou Vláškovou a výtvarníky Barborou Bieylonovič
+                a Martinem Mulačem provede tvorbou EX LIBRIS krok za krokem. Zkuste si knižní značku vyrobit doma 
+                a zapojte se s Karantéňanem do výzvy #objevexlibris #vyryjznacku! 
+                </p>
+                <p>
+                Více informací o projektu Karantéňan najdete zde.
+                <iframe width="389" height="219" src="https://www.youtube.com/embed/XoxO-ViQeig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                </p>
             </div>
         </div>
     </main>
