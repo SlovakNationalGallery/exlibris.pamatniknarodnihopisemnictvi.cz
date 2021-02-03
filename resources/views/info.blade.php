@@ -8,6 +8,25 @@
             <div class="col-lg-6 offset-lg-3">
                 <hr>
 
+                <h3 class="mt-2">Tvorba</h3>
+
+                <p class="font-serif">
+                    Jak vzniká ex libris?
+                    Karantéňan vás společně s kurátorkou ex libris Barborou Vláškovou a výtvarníky Barborou Bieylonovič
+                    a Martinem Mulačem provede tvorbou EX LIBRIS krok za krokem. Zkuste si knižní značku vyrobit doma
+                    a zapojte se s Karantéňanem do výzvy #objevexlibris #vyryjznacku!
+                </p>
+
+                <p>Více informací o projektu Karantéňan najdete zde.</p>
+
+                <div class="col-md-6 embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="https://www.youtube.com/embed/XoxO-ViQeig">
+                    </iframe>
+                </div>
+
+                <hr class="mt-6">
+
                 <h3 class="mt-2">Playlist</h3>
 
                 <p class="font-serif">
@@ -69,20 +88,6 @@
                 <img class="img-fluid my-3" src="{{ asset('img/pro_radost_2.jpg') }}">
                 <img class="img-fluid my-3" src="{{ asset('img/pro_radost_3.jpg') }}">
                 <img class="img-fluid my-3" src="{{ asset('img/pro_radost_4.jpg') }}">
-
-                <hr class="mt-6">
-
-                <h3 class="mt-2">Tvorba</h3>
-
-                <p class="font-serif">Jak vzniká ex libris?
-                Karantéňan vás společně s kurátorkou ex libris Barborou Vláškovou a výtvarníky Barborou Bieylonovič
-                a Martinem Mulačem provede tvorbou EX LIBRIS krok za krokem. Zkuste si knižní značku vyrobit doma 
-                a zapojte se s Karantéňanem do výzvy #objevexlibris #vyryjznacku! 
-                </p>
-                <p>
-                Více informací o projektu Karantéňan najdete zde.
-                <iframe width="389" height="219" src="https://www.youtube.com/embed/XoxO-ViQeig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
-                </p>
             </div>
         </div>
     </main>
